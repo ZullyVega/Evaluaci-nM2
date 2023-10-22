@@ -1,5 +1,22 @@
 .relativo {
-    position: relative;
-    top: 10px;
-    left: 10px;
-  }
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(195, 249, 225);
+  cursor: pointer;
+}
+
+#mi-id {
+  border: 2px solid #f482d0;
+  border-radius: 20px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  z-index: 20;
+  background-color: rgb(227, 246, 152);
+  padding: 10px;
+  border-radius: 5px; 
+}
